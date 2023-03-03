@@ -1,0 +1,8 @@
+- name: "Manfred"
+  occupation: "lärare"
+
+- name: "Julius"
+  occupation: "lärare"
+
+- name: "Marie"
+  occupation: "ekonom"
