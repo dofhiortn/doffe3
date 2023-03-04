@@ -1,16 +1,15 @@
 ---
 layout: page
-title: Contact
-permalink: /contact/
+title: Shows
+permalink: /shows/
 ---
 
-For general inquiries/booking, write to [info@dofhiortn.se](info@dofhiortn.se)
+{% assign shows_by_year = site.data.shows | group_by_exp: 'show', 'show.date | date: "%Y"' %}
 
-## Booking/promotion (Germany):
-Britta Hüfing (MikimotoMusic&Arts)
-[britta@mikimotomusic.de](britta@mikimotomusic.de)
+{% for shows_in_year in shows_by_year %}
+## {{ shows_in_year.name }}
+{% for show in shows_in_year.items %}
+- {{ show.date | date: "%-d %b" }}: {{ show.place }} / {{ show.event }}
+{% endfor %}
 
-Website by Manfred Högström. Updated by Fult Med Flit. Run on Jekyll.
-
-Contact: [info@dofhiortn.se](info@dofhiortn.se)
-
+{% endfor %}
