@@ -8,29 +8,23 @@ layout: default
   {%- endif -%}
 
 </div>
+<br/>
 
-{{ content }}
 
-  {%- if site.posts.size > 0 -%}
-    <h2 class="post-list-heading">{{ page.list_title | default: "Posts" }}</h2>
-    <ul class="post-list">
-      {%- for post in site.posts -%}
-      <li>
-        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
-        <span class="post-meta">{{ post.date | date: date_format }}</span>
-        <h3>
-          <a class="post-link" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-        </h3>
-        {%- if site.show_excerpts -%}
-        {{ post.excerpt }}
-        {%- endif -%}
-      </li>
-      {%- endfor -%}
-    </ul>
+<h1>Upcoming shows</h1>
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign future_dates_found = false %}
+{% for event in site.data.shows %}
 
-    <p class="rss-subscribe">subscribe <a href="{{ '/feed.xml' | relative_url }}">via RSS</a></p>
-  {%- endif -%}
+  {% assign event_date = event.date | date: "%Y-%m-%d" %}
 
-</div>
+  {% if event_date >= today %}
+    {% assign future_dates_found = true %}
+    <p>{{ event.date | date: "%Y-%m-%d" }} - {{ event.event }} - {{ event.place }}</p>
+  {% endif %}
+
+{% endfor %}
+
+{% if future_dates_found == false %}
+  <p>No future dates.</p>
+{% endif %}
