@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: 'en' }}">
+
+  {%- include head.html -%}
+
+  <style>
+    .artwork {
+      height: 100px;
+      width: 100px;
+    }
+
+    ol {
+      display: grid;
+      grid-template-columns: 50px 50px 50px;
+      grid-template-rows: auto;
+      background-color: blue;
+    }
+
+    li {
+      display: default;
+    }
+
+  </style>
+
+  <body>
+  
+    
+    <header class="post-header">
+      {%- include header.html -%}
+    </header>
+    
+    <main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <h1 class="post-title">{{ page.title | escape }}</h1>
+        <div class="post-content">
+          <article class="post">
+          {{ content }}
+        </article>
+        </div>
+        
+    </div>
+      
+    {%- include footer.html -%}
+  </body>
+  
+  </html>

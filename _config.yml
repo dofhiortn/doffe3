@@ -26,3 +26,8 @@ defaults:
       path: "assets/img"
     values:
       image: true
+
+facebook: https://www.facebook.com/dofhiortn
+instagram: https://www.instagram.com/dofhiortn/
+
+show_excerpts: true
