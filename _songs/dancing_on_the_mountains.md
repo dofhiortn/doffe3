@@ -1,8 +1,8 @@
 ---
 title: Dancing On The Mountains 
-songwriter_music: Julius Z. Strömberg
-songwriter_lyrics: Julius Z. Strömberg, 2016
-recording: |
+song_details: |
+    Music and lyrics by Julius Z. Strömberg, 2016
+recording_details: |
     Julius Z. Strömberg: guitar, vocals
     Manfred Högström: percussion, vocals
     Marie Brun Landmark: vocals
@@ -17,6 +17,8 @@ recording: |
     Released on October 27th, 2019.
     Track 3 on our debut album "Bibliotek".
     Released on October 14th, 2019.
+artwork: 'dancing.jpeg'
+
 ---
 We were barefoot in the streets, we were sleeping on the beach\
 We were kings and queens of sorrow, and we never thought about tomorrow

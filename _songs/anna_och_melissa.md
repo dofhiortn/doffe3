@@ -1,16 +1,17 @@
 ---
 title: Anna & Melissa
-songwriter_music: Julius Z. Strömberg
-songwriter_lyrics: Julius Z. Strömberg, April 2013
-recording: |
+song_details: |
+    Music and lyrics by Julius Z. Strömberg, April 2013
+recording_details: |
     Manfred Högström: cajón, percussion, accordion, vocals
     Julius Z. Strömberg: guitar, vocals
     Rasmus Sjöstedt: bass Hans Rohdin: guitars
     Gustav Eriksson: trombone
     Production: Hans Rohdin (RohdinMusic, Trollhättan), July 2017
     Mastering: Rasmus Blomqvist (Lindsberg, Falun), September 2017
+    Photo: Nils Alatalo
+    Design: Manfred Högström
 artwork: '420394.jpg'
-artwork_credit: 'Photo: Nils Alatalo Design: Manfred Högström © Fult Med Flit 2017.'
 spotify: https://open.spotify.com/track/6KLOwl5Wa27I4qsMatXxph
 ---
 

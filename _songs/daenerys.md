@@ -1,8 +1,8 @@
 ---
 title: Daenerys
-songwriter_music: Julius Z. Strömberg
-songwriter_lyrics: Julius Z. Strömberg, 2016
-recording: |
+song_details: |
+    Music and lyrics by Julius Z. Strömberg, 2016
+recording_details: |
     Manfred Högström: accordion, mandolin, vocals, percussion
     Julius Z. Strömberg: guitars, harmonica, vocals
     Marie Brun Landmark: vocals
@@ -16,7 +16,7 @@ recording: |
     Produced by Hans Rohdin (RohdinMusic) and Dofhiort'n\
     Track 1 on our debut album ""Bibliotek"". Released on October 14th, 2019. © Fult Med Flit 2019.
 
-artwork:
+artwork: 'daenerys.jpeg'
 artwork_credit: 'Photo: Nils Alatalo Design: Manfred Högström © Fult Med Flit 2017.'
 spotify: https://open.spotify.com/track/6KLOwl5Wa27I4qsMatXxph
 ---

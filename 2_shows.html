@@ -1,0 +1,39 @@
+---
+layout: page
+title: Shows
+permalink: /shows/
+---
+
+<!--# Upcoming shows
+
+
+{% assign today = site.time | date: "%Y-%m-%d" %}
+{% assign future_dates_found = false %}
+{% for event in site.data.shows %}
+
+  {% assign event_date = event.date | date: "%Y-%m-%d" %}
+
+  {% if event_date >= today %}
+  {% assign future_dates_found = true %}
+- {{ event.date | date: "%Y-%m-%d" }} - {{ event.event }} - {{ event.place }}
+  {% endif %}
+
+{% endfor %}
+
+{% if future_dates_found == false %}
+  <p>No future dates.</p>
+{% endif %}-->
+
+We have no upcoming shows at the moment. Here is a list of where we have played so far.<br/>
+
+{% assign shows_by_year = site.data.shows | group_by_exp: 'show', 'show.date | date: "%Y"' %}
+
+{% for shows_in_year in shows_by_year %}
+<h2 style="font-size: 1.2rem; font-weight: bold; margin-top: 30px; margin-bottom: 10px;">{{ shows_in_year.name }}</h2>
+<ul>
+  {% for show in shows_in_year.items %}
+  <li>{{ show.date | date: "%-d %b" }}: {{ show.place }} / {{ show.event }}</li>
+  {% endfor %}
+</ul>
+
+{% endfor %}
