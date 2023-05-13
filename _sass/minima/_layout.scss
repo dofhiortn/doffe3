@@ -1,14 +1,57 @@
 /**
  * Site header
  */
+
+.app {
+  height: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.app::before {
+  content: "";
+  background-image: url('./img/bgnoise.png');;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 999;
+  left: 0px;
+  top: 0px;
+  opacity: 0.1;
+  pointer-events: none;
+}
+
 .site-header {
+  margin-top: 1em;
+  margin-bottom: 2em;
   border-top: 0px solid $grey-color-dark;
-  border-bottom: 1px solid $grey-color-light;
+ // border-bottom: 1px solid $grey-color-light;
   min-height: $spacing-unit * 1.865;
 
   // Positioning context for the mobile navigation icon
   position: relative;
 }
+
+
+.site-header a {
+  //opacity: 0.5;
+  opacity: 1;
+  transition: 0.25s ease all;
+  padding: 0.5em;
+  border-radius: 0.5em;
+  border: 1px solid rgba(197, 22, 22, 0);
+  //text-transform: uppercase;
+}
+
+.site-header a:hover {
+  border: 1px solid rgb(0, 85, 255);
+  background: rgb(48, 114, 246);
+  color: white !important;
+  opacity: 1;
+  text-decoration: none;
+  font-weight: 0;
+}
+
 
 .site-title {
   @include relative-font-size(1.625);
@@ -111,7 +154,7 @@
  * Site footer
  */
 .site-footer {
-  border-top: 1px solid $grey-color-light;
+  //border-top: 1px solid $grey-color-light;
   padding: $spacing-unit 0;
 }
 
@@ -262,7 +305,8 @@
 
 
 .logo {
-  height: 90px;
+  margin-top: 10px;
+  height: 50px;
   width: auto;
 }
 
@@ -286,7 +330,7 @@
 }
 
 .recording_details {
-  background: lightgrey;
+  background: #F5E299;
   padding: 1em;
 }
 

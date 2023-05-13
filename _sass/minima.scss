@@ -4,7 +4,7 @@
 
 //@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,700&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;1,700&family=Darumadrop+One&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 
 $base-font-family: /*'Crimson Text', serif;*/ 'Roboto Mono', monospace;
@@ -16,8 +16,13 @@ $base-line-height: 1.5 !default;
 $spacing-unit:     30px !default;
 
 $text-color:       #111 !default;
-$background-color: #fdfdfd !default;
-$brand-color:      #2a7ae2 !default;
+$background-color: #F5EEE7 !default;
+//$brand-color:      #2a7ae2 !default;
+$brand-color:      #3072F6 !default;
+
+$naple-color:     #F7CE46 !default;
+$naple-color-less:  #F6D555 !default;
+
 
 $grey-color:       #828282 !default;
 $grey-color-light: lighten($grey-color, 40%) !default;
@@ -54,3 +59,9 @@ $on-laptop:        800px !default;
   "minima/layout",
   "minima/syntax-highlighting"
 ;
+
+
+
+h1, h2, h3 {
+  font-family: 'Darumadrop One', cursive;
+}
