@@ -11,4 +11,4 @@ You can also find us on [Facebook]({{site.facebook}}) or on [Instagram]({{site.i
 
 ### Booking/promotion (Germany)
 Britta Hüfing (MikimotoMusic&Arts)
-[britta@mikimotomusic.de](britta@mikimotomusic.de)
+[britta@mikimotomusic.de](mailto:britta@mikimotomusic.de)
