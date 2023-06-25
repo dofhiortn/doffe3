@@ -1,7 +1,7 @@
 title: Doffewebb 3.0
 email: info@dofhiortn.se
 description: The home of Dofhiortn
-baseurl: /doffe3
+baseurl: /
 theme: minima
 plugins:
   - jekyll-feed
