@@ -25,7 +25,7 @@ recording_details: |
 
     "Guadalquivir" was inspired by "The River", courtesy of Bruce Springsteen/Columbia Records.
     Released on October 1st, 2019.
-    Track 8 on our debut album ""Bibliotek"".
+    Track 8 on our debut album "Bibliotek".
     Released on October 14th, 2019. © Fult Med Flit 2019.		
 
 ---
