@@ -30,4 +30,4 @@ Från var sida världen, men kärleken blind\
 Ren som en blomma, löper fort som en hjort\
 \
 Så, ta mej ut på gatan\
-Det blev tyst på elektrisk aveny\
+Det blev tyst på elektrisk aveny
