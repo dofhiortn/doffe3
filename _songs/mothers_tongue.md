@@ -27,4 +27,4 @@ We’re all going back in time\
 Wanna go up north, to see the sun\
 The midnight sun\
 Wanna go up north, to talk their tongue\
-Their mother’s tongue\
+Their mother’s tongue
