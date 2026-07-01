@@ -25,8 +25,10 @@ Publicera dej, skapa sjuttiotalsbild av dej, det ska jag\
 Få kommentar i en romantisk fantasi
 
 En gång var jag social, nu är jag alltför asocialt social\
-Du är ung men ack så gammal, ack så gammal Res dej och res, stå upp och gå\
-Du är ung men ack så gammal, ack så gammal Res dej och res, stå upp och gå
+Du är ung men ack så gammal, ack så gammal\
+Res dej och res, stå upp och gå\
+Du är ung men ack så gammal, ack så gammal\
+Res dej och res, stå upp och gå
 
 Du är högskola, bada, supa och sola I Malmö, Oslo, Vbg och Thailand\
 Så ta min hand, lätta ankar från din trygga hamn\
